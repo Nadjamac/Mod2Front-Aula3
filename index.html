@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Pesquisa sobre series</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 id = " title"> Pesquisa sobre series</h1>
+            <p id="description"p>
+             Esta e uma pesquisa para saber quais foram as series mais assistidas durante a quarentena.
+            </p> 
+            
+            <form id="survey">
+
+                <label id="name-label" for="name">name</label>
+                <input type="texte" id="name" name="name" placeholder=" digite seu nome"/>
+                
+                <label id="email-label" for="email">email</label>
+                <input type="texte" id="email" email="email" placeholder=" digite seu email"/>
+
+                <label id="number-label" for="number">idade</label>
+                <input type="texte" id="number" email="number" placeholder=" digite seu idade" min="18" max="120"requeriment/>
+
+                <label id="drop-label"for="dropdown">qual o seu genero favorito</label>
+                <select name="genre" id ="dropdown">
+                    <option disabled selected value>-</option>
+                    <option value = terror >terror</option>
+                    <option value= "sistcom">sistcom</option>
+                    <option  value="anime ">anime</option>
+                    <option  value="musical">musical</option>
+                    <option value="medical">medical</option>
+                    <option value="misterio">mesterio</option>
+                    <option value="drama">drama </option>
+                </select>  
+                
+                
+                <div class ="radioButtons"> /* so deixa funcionar um botão
+                    <p>
+                        <input name ="time " value="manha" type="radio"/>
+                        <label>manha</label>
+                        <input name ="time " value="tarde" type="radio"/>
+                        <label>tarde</label>
+                        <input name ="time " value="noite" type="radio"/>
+                        <label>noite</label>
+                    </p>
+
+                    <div>
+                        <div class="chekButtons">
+                            <label>
+                                <input name= "favorito" value="o contador " type="checkbox"/>
+                                o contador
+
+                                <input name= "favorito" value="o preco do amanha " type="checkbox"/>
+                                o preco do amanha 
+                                <input name= "favorito" value="vingadores" type="checkbox"/>
+                                vingadores
+                                <input name= "favorito" value="a guerra de ultron" type="checkbox"/>
+                                a guerra de ultron
+                                <input name= "favorito" value="guerra civil" type="checkbox"/>
+                                guerra civil 
+                                <input name= "favorito" value="viuva negra " type="checkbox"/>
+                                viuva negra 
+                                
+                            </label>
+
+                            <div>
+                                <div class= "textArea">
+                                    <p>Outras Series</p>
+                                    <textarea id =  "another- series" name ="another-series" placeholder="digite o nome de outras series que voce assistiu">
+
+                                    </textarea>
+                                   
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </form>
+    </div>
+
+    
+    </body>
+</html>
